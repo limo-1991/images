@@ -1,0 +1,100 @@
+h1{text-align: center;font-size: 40px;}
+.content{background-color: #ff6700;width: 960px;height: 800px;margin: 60px auto;position: relative;}
+.content img{
+    padding: 10px 10px 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    position: absolute;
+    -webkit-transition: 0.5s;-moz-transition: 2s;transition: 2s;
+
+}
+.content img{width: 200px;height: 150px;
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    transform: rotate(20deg);
+    z-index: 1;
+}
+.content img:hover{
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transform: scale(1.2);
+    -moz-transform:scale(1.2);
+    transform: scale(1.2);
+    box-shadow: -10px 10px 15px #ccc;
+    z-index: 200;
+}
+.pic1{
+    left:370px;
+    top:50px;
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+}
+
+.pic2{
+    left:400px;
+    top:250px;
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+}
+
+.pic3{
+    left:100px;
+    top:160px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.pic4{
+    left:500px;
+    top:500px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.pic5{
+    left:200px;
+    top:435px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.pic6{
+    left:680px;
+    top:200px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.pic7{
+    left:80px;
+    top:600px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.pic8{
+    left:670px;
+    top:600px;
+    -webkit-transform: rotate(65deg);
+    -moz-transform: rotate(65deg);
+    transform: rotate(65deg);
+}
+
+#img{width: 960px;height: 800px;margin: 0 auto;background-color: cornflowerblue;}
+.ing-a img{width: 300px;height: 200px;display: block;
+    -webkit-transition: 0.5s;-moz-transition: 0.5s;transition: 0.5s;
+}
+.ing-a img:hover{
+    -webkit-transform: scale(1.2);
+    -moz-transform:scale(1.2);
+    transform: scale(1.2);
+    box-shadow: -10px 10px 15px #ccc;
+}
+.ing-a li{float: left;margin-right: 20px;}
+.ing-a .ing-c{margin-right: 20px;}
+.input-a {text-align: center;float: right;}
+.num{text-align: center;line-height: 280px;}
+.num span{border: 16px solid #ff6700; color: #fff;background-color: #ff6700;}
